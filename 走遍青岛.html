@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>走遍青岛</title>
+    <style type="text/css"></style>
+    <link rel="stylesheet" href="css/div_bg_all.css">
+    <link rel="stylesheet" href="css/bottom.css">
+    <link rel="stylesheet" href="css/ztTravelPnl.css">
+    <link rel="stylesheet" href="css/QDTripPnl.css">
+    <link rel="stylesheet" href="css/jcyj.css">
+    <link rel="stylesheet" href="css/notice.css">
+    <link rel="stylesheet" href="css/kanqianjingPnl.css">
+    <link rel="stylesheet" href="css/ActiveNewsPnl.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/top_div_all.css">
+</head>
+<body>
+<div class="top_div_all">
+    <div class="login_div_964">
+        <ul class="unlogin_ul">
+            <li>你好，欢迎来到走遍青岛网！　　
+            <a href="登录账号.html" style="cursor:pointer" onclick='qj_login()'>登 录</a>　　
+            <a href='注册账号.html' target="_top">注 册 </a>
+            </li>
+        </ul>
+    </div>
+    <div class="logo_warp">
+        <div class="logo_div">
+            <div class="logo_img">
+                <a href="/" target="_top">
+                    <img src="images/青岛.jpg" />
+                </a>
+                <span>走遍·青岛</span>
+            </div>
+
+            <div class="top_search">
+                <input type="text" id="KeyWords" name="KeyWords"  value="" class="top_search_input" />
+                <input type="button" value="搜　索" onclick="SearchCheck();" class="top_search_button" />
+            </div>
+            <div class="search_text">
+                <span>热门搜索：</span>
+                <a href="http://baike.baidu.com/link?url=EcFRdzWISzQ61ThOtXsncWI0givef6AXY06OD7PZKOLlUwXHaGgwt0FW0hNUCG1MTT_3l-eDKdfgE2yC_ZL4br0PErU5N7rJ8ubjDVn8xF2RAM7dMawzr2pXmolrZkBgxV0i87x1m_JCcqr-vyt4ZJXCN9xLEipVIXyr9HmuKEDJp_chifXI8dSMZiU9Cl36" target='_top'>栈桥</a>
+                <a href="#" target='_top'>八大关</a>
+                <a href="#" target='_top'>五四广场</a>
+                <a href="#" target='_top'>石老人</a>
+                <a href="#" target='_top'>崂山</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--菜单-->
+<div class="menu_warp">
+    <div class="menu">
+        <ul>
+            <li class="firstmenu"><a class="menu_on" id="menu_1" href="走遍青岛.html" target="_top">首页</a></li>
+            <li><a href="看千景.html" id="menu_2" target="_blank">看千景</a></li>
+            <li><a href="青岛旅游.html" id="menu_3" target="_blank">青岛旅游</a></li>
+            <li><a href="http://www.qingdaonews.com/" id="menu_4" target="_blank">时讯活动</a></li>
+            <li><a href="主题之旅.html" id="menu_5" target="_blank">主题之旅</a></li>
+            <li><a href="历史青岛.html" id="menu_6" target="_blank">历史青岛</a></li>
+            <li class="lastmenu"><a href="http://dict.youdao.com/" id="menu2013_7" target="_blank">ENGLISH</a></li>
+        </ul>
+    </div>
+</div>
+<!--菜单-->
+
+<!--中间的-->
+<div class="div_bg_all">
+    <div class="div_middle_964">
+        <div id="focus">
+            <ul>
+                <li>
+                    <div id="outer">
+                    <iframe src="动态广告-Galleria插件的使用/动态广告-Galleria示例.html"></iframe>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div id="ActiveNewsPnl" class="ActiveNewsPnlCss">
+            <ul class='ActiveNews_ul'>
+                <li class='active_li'><a href='#' target='_blank'>青岛创建全国文明城区</a></li>
+                <li class='active_li2'><a href='#' target='_blank'>青岛美术馆丨始于终点</a></li>
+                <li class='active_li3'><a href='#' target='_blank'>好奇柜 | 魔都首届博物艺术展</a></li>
+                <li class='active_li'><a href='#' target='_blank'>6月丨老房子故事会回顾</a></li>
+                <li class='active_li2'><a href='#' target='_blank'>青岛旅游攻略大合集</a></li>
+                <li class='active_li3'><a href='#' target='_blank'>青岛记忆，青岛的前世今生</a></li>
+                <li class='active_li'><a href='#' target='_blank'>2017五一微游青岛精彩回顾</a></li>
+                <li class='active_li2'><a href='#' target='_blank'>建筑—跨时空的使命</a></li>
+                <li class='active_li3'><a href='#' target='_blank'>御制唐卡暨永宣文物特展</a></li>
+                <li class='news_li_h'></li>
+            </ul><div id='scrollNewsDivBtn' style='display:none;'><small id='btn_up'>↑向上</small><small id='btn_down'>↓向下</small></div>
+            <div id='scrollNewsDiv' class='scrollNewsDiv'><ul class='ActiveNews_ul'> <li class='news_li'><img src='images/时讯.png' /><a href='#'>[时讯]</a>　<a href=''>百联联姻SMG 新零售为实体商业带来第二春</a></li>
+                <li class='news_li'><img src='images/时讯.png' /><a href='#'>[时讯]</a>　<a href='#' target='_blank'>青岛国际电影节开票首日：35.3万张 500部影片1500场</a></li>
+                <li class='news_li'><img src='images/时讯.png' /><a href='#'>[时讯]</a>　<a href='#' target='_blank'>“快闪”秧歌扭出新风尚 金山《渔秧》月底将首次亮相</a></li>
+                <li class='news_li'><img src='images/时讯.png' /><a href='#'>[时讯]</a>　<a href='#' target='_blank'>电影节老兵讲述20届电影节经历 第一届市场“很寒酸”</a></li>
+                <li class='news_li'><img src='images/时讯.png' /><a href='#'>[时讯]</a>　<a href='#' target='_blank'>国内最小的7英寸森林仿真电动小火车亮相滨江森林公园</a></li>
+                <li class='news_li'><img src='images/时讯.png' /><a href='#'>[时讯]</a>　<a href='#' target='_blank'>国内直径最大的土压平衡盾构闵行现身 大虹桥地区对外交通将添新通道！</a></li>
+                <li class='news_li'><img src='images/时讯.png' /><a href='#'>[时讯]</a>　<a href='#' target='_blank'>青岛&quot;第一百货&quot;下周起改造 &quot;小别离&quot;酝酿八大消费主题</a></li>
+                <li class='news_li'><img src='images/时讯.png' /><a href='#'>[时讯]</a>　<a href='#' target='_blank'>坐上豪华邮轮度个假 岸上游怎会成为“吃苦夏令营”？</a></li>
+                <li class='news_li'><img src='images/时讯.png' /><a href='#'>[时讯]</a>　<a href='#' target='_blank'>高考落幕 铁路警方发布暑期出行六大注意事项</a></li>
+                <li class='news_li'><img src='images/时讯.png' /><a href='#'>[时讯]</a>　<a href='#' target='_blank'>2017上海电视节精彩推荐：《傲骨之战》等高分片来袭</a></li>
+                <li class='news_li'><img src='images/时讯.png' /><a href='#'>[时讯]</a>　<a href='#' target='_blank'>东航悉尼至青岛客机突发故障 机组及时发现果断处置保平安</a></li>
+                <li class='news_li'><img src='images/时讯.png' /><a href='#'>[时讯]</a>　<a href='#' target='_blank'>第23届青岛电视节今开幕 申城进入一年一度的影视节时间</a></li>
+                <li class='news_li'><img src='images/时讯.png' /><a href='#'>[时讯]</a>　<a href='#' target='_blank'>最新型豪华邮轮诺唯真“喜悦”号抵沪 被誉“海上头等舱”</a></li>
+                <li class='news_li'><img src='images/时讯.png' /><a href='#'>[时讯]</a>　<a href='#' target='_blank'>东航亮相2017年中国国际技能大赛 模拟飞行体验等吸睛</a></li>
+                <li class='news_li'><img src='images/时讯.png' /><a href='#'>[时讯]</a>　<a href='#' target='_blank'>青岛新增426处优秀历史建筑 百年学堂特色民宅纳入其中</a></li>
+                <li class='news_li'><img src='images/时讯.png' /><a href='#'>[时讯]</a>　<a href='#' target='_blank'>30余架无人机同时放飞 未来四个月完整航拍上海历史风貌区</a></li>
+                <li class='news_li'><img src='images/时讯.png' /><a href='#'>[时讯]</a>　<a href='#' target='_blank'>郑君里特展在沪开幕 逾九成展品首次公开</a></li>
+                <li class='news_li'><img src='images/时讯.png' /><a href='#'>[时讯]</a>　<a href='#' target='_blank'>青岛滨海将建成&quot;雨水花园&quot; 预计下半年分段向公众开放</a></li>
+                <li class='news_li'><img src='images/时讯.png' /><a href='#'>[时讯]</a>　<a href='#' target='_blank'>青岛迎“史诗级”暴雨 最美书店钟书阁成水帘洞</a></li>
+                <li class='news_li'><img src='images/时讯.png' /><a href='#'>[时讯]</a>　<a href='#' target='_blank'>青空港布局“一带一路” 上海与圣彼得堡直飞航班开通</a></li>
+                <li class='news_li'><img src='images/时讯.png' /><a href='#'>[时讯]</a>　<a href='#' target='_blank'>今年金山城市沙滩泳期6月20日开放 票价公布</a></li>
+                <li class='news_li'><img src='images/时讯.png' /><a href='#'>[时讯]</a>　<a href='#' target='_blank'>青岛历史文化风貌区无人机航拍活动启动</a></li>
+                <li class='news_li'><img src='images/时讯.png' /><a href='#'>[时讯]</a>　<a href='#' target='_blank'>10日暴雨触发预警“三黄蛋” 沪462架次航班被取消</a></li>
+                <li class='news_li'><img src='images/时讯.png' /><a href='#'>[时讯]</a>　<a href='#' target='_blank'>青岛滨海的龙腾大道将延伸！拟从罗秀东路直达徐浦大桥</a></li>
+                <li class='news_li'><img src='images/时讯.png' /><a href='#'>[时讯]</a>　<a href='#' target='_blank'>“鱼眼”造型已初露端倪 徐汇春申港桥年内有望通车</a></li>
+                <li class='news_li'><img src='images/时讯.png' /><a href='#'>[时讯]</a>　<a href='#' target='_blank'>青第五批426处优秀历史建筑揭牌 共有1058处</a></li>
+                <li class='news_li'><img src='images/时讯.png' /><a href='#'>[时讯]</a>　<a href='#' target='_blank'>崂山区大场镇十大非遗传承人集体亮相</a></li>
+                <li class='news_li'><img src='images/时讯.png' /><a href='#'>[时讯]</a>　<a href='#' target='_blank'>百处文物建筑免费开放 文化和自然遗产日申城活动丰盛</a></li>
+                <li class='news_li'><img src='images/时讯.png' /><a href='#'>[时讯]</a>　<a href='#' target='_blank'>青国际电影节今开票 影迷提前30小时排队抢票</a></li>
+                <li class='news_li'><img src='images/时讯.png' /><a href='#'>[时讯]</a>　<a href='#' target='_blank'>青岛与济南间将建第二条快速铁路 两地最快只要1小时</a></li>
+            </ul></div>
+            <div class='more_news'><a href='http://www.qingdaonews.com/'>更多<img src='images/more_news.jpg' /></a></div>
+
+        </div>
+
+
+        <div id="kanqianjingPnl" class="div_middle_LM">
+            <ul class='kanqianjing_banner'>
+                <li class='kanqianjing_hot'>热门旅游地区：<a href='#' target='_blank'>栈桥</a>
+                    | <a href='#' target='_blank'>五四广场</a> | <a href='#' target='_blank'>崂山</a>
+                    | <a href='#' target='_blank'>鲁迅公园</a> | <a href='#' target='_blank'>海水浴场</a></li>
+                <li class='kanqianjing_more'><a href='看千景.html'>更多>></a></li>
+            </ul>
+            <ul class='photo1_ul'>
+                <li class='photo1_ul_li'>
+                    <a href='http://baike.baidu.com/link?url=EcFRdzWISzQ61ThOtXsncWI0givef6AXY06OD7PZKOLlUwXHaGgwt0FW0hNUCG1MTT_3l-eDKdfgE2yC_ZL4br0PErU5N7rJ8ubjDVn8xF2RAM7dMawzr2pXmolrZkBgxV0i87x1m_JCcqr-vyt4ZJXCN9xLEipVIXyr9HmuKEDJp_chifXI8dSMZiU9Cl36' target='_blank'>
+                        <div class='photo1' style="background-image:url('images/b.jpg');">
+                            <div class='hover-mask hidden'></div>
+                            <div class='mask'>
+                                <span class='title'>栈桥</span>
+                                <span class='info'>青岛栈桥是青岛海滨风景区的景点之一，是国务院1982年首批公布的国家级风景名胜区，也是首批4A级国家旅游区。
+                                    青岛栈桥由回澜阁、中山路、小青岛、海水浴场等景点组成。</span>
+                            </div>
+                        </div>
+                    </a>
+                </li>
+             </ul>
+         <ul class='photo2_ul'>
+            <li class='photo2_ul_li1' >
+                <a href='http://baike.baidu.com/link?url=iqxYnOxfCsj3ENpRJZcgsDBIH3vk4AHQERF9Rh-w9C4NIsYbk4YK0gakWXvgF7CHF7Oa20tkz0d0LhoBtLaD4_ByKHWTrMU7seEPzQVur2ArPDNnG_RA-NGcqb4AyDgJ' target='_blank'>
+                    <div class='photo2' style="background-image:url('images/e.jpg');">
+                        <div class='hover-mask hidden'></div>
+                        <div class='mask'>
+                            <span class='title'>五四广场</span>
+                        </div>
+                    </div>
+                </a>
+            </li> <li class='photo2_ul_li2'>
+            <a href='#' target='_blank'>
+                <div class='photo3' style="background-image:url('images/a.jpg');">
+                    <div class='hover-mask hidden'></div>
+                    <div class='mask'>
+                        <span class='title'>崂山</span>
+                    </div>
+                </div>
+            </a>
+        </li> <li class='photo2_ul_li3'>
+            <a href='http://www.qjtrip.com/info/ShowDetail.aspx?Id=3555' target='_blank'>
+                <div class='photo3' style="background-image:url('images/c.jpg');">
+                    <div class='hover-mask hidden'></div>
+                    <div class='mask'>
+                        <span class='title'>奥帆中心</span>
+                    </div>
+                </div>
+            </a>
+        </li></ul>
+
+        </div>
+
+
+        <div id="QDTripPnl" class="div_middle_LM">
+            <ul class='qdtrip_banner'>
+                <li class='qdtrip_hot'>热门：<a href='#' target='_blank'>精彩青岛，十大必吃美食</a>  | <a href='#' target='_blank'>青岛风情大学路</a>
+                    | <a href='#' target='_blank'>品味老洋房</a>  | <a href='#' target='_blank'>青岛啤酒</a>
+                    | <a href='#' target='_blank'>漫游慢品武胜关</a> </li>
+                <li class='qdtrip_more'><a href='青岛旅游.html'>更多>></a></li>
+            </ul>
+            <div class='qdtrip_banner_div'>
+                <ul><li><a href=# target='_blank'><img src='images/1.jpg' /></a><br /> <a href=# target='_blank'>关于青岛，你了解多少？</a></li></ul>
+                <ul><li><a href=# target='_blank'><img src='images/2.jpg' /></a><br /> <a href=# target='_blank'>心醉夜色，青岛风情大学路</a></li></ul>
+                <ul><li><a href=# target='_blank'><img src='images/3.jpg' /></a><br /> <a href=# target='_blank'>漫游慢品武胜关路</a></li></ul>
+                <ul><li><a href=# target='_blank'><img src='images/6.png' />
+                </a><br /> <a href='http://www.360doc.com/content/15/0618/19/16156855_479047978.shtml' target='_blank'>精彩青岛，十大必吃美食</a></li></ul>
+                <ul><li><a href='http://www.360doc.com/content/15/0618/19/16156855_479047978.shtml' target='_blank'><img src='images/10.jpg' /></a><br />
+                    <a href='https://qd.nuomi.com/search/%E4%B8%8B%E5%8D%88%E8%8C%B6/1/0/all-0-0-0-pd-0-0?cid=002518&channel_content=%E9%9D%92%E5%B2%9B%E4%B8%8B%E5%8D%88%E8%8C%B6%E6%8E%A8%E8%8D%90'
+                       target='_blank'>下午茶推荐</a></li></ul>
+                <ul><li><a href=# target='_blank'><img src='images/4.jpg' /></a><br /> <a href=# target='_blank'>德式洋房</a></li></ul>
+                <ul><li><a href=# target='_blank'><img src='images/7.jpg' /></a><br /> <a href=# target='_blank'>知名企业</a></li></ul>
+                <ul><li><a href=# target='_blank'><img src='images/8.jpg' /></a><br /> <a href=# target='_blank'>北海舰队</a></li></ul>
+                <ul><li><a href=# target='_blank'><img src='images/5.jpg' /></a><br /> <a href=# target='_blank'>青岛啤酒</a></li></ul>
+                <ul><li><a href=http://www.qdu.edu.cn/ target='_blank'><img src='images/9.jpg' /></a><br /> <a href="http://www.qdu.edu.cn/" target='_blank'>高等学府</a></li></ul>
+            </div>
+        </div>
+
+        <div class="div_middle_LM" style="margin-top:28px;">
+            <div id="pnlBBSAD" class="pnljcyz">
+                <ul class='jcyz_banner'><li class='jcyz_more'><a href='https://lvyou.baidu.com/qingdao/?from=zhixin'>>>更多</a></li></ul>
+                <ul class='jcyz_ul'>
+                    <li class='jcyz_li'><a href='#' target='_blank'><img src='images/a.jpg' /></a></li>
+                    <li class='jcyz_li2'><a href='#' target='_blank'><span class='title'>2017“五一”微游青岛精彩回顾</span></a></li>
+                    <li class='jcyz_li2'><span class='author'>作者：DanielL 回复： 14:03:15<img src='images/m.png' />
+                        <label style='color:#e97214; font-weight:bold;'>0</label>/<label style='color:#e97214;font-weight:bold;'>400</label></span></li>
+                    <li class='jcyz_li3'><a href='#' target='_blank'>提倡环保，倡导绿色出行，2017年5月1日，由崂山区旅游公共服务中心、黄岛区旅游公共服务中心、静安区旅游服务中……</a></li>
+                </ul>
+                <ul class='jcyz_ul'>
+                    <li class='jcyz_li'><a href='#' target='_blank'><img src='images/b.jpg' /></a></li>
+                    <li class='jcyz_li2'><a href='#' target='_blank'><span class='title'>2017年2月25日小山村自然探秘旅行分享会精彩回顾</span></a></li>
+                    <li class='jcyz_li2'><span class='author'><img src='images/0.gif' />作者：vickydou 回复： 14:03:32<img src='images/m.png' />
+                        <label style='color:#e97214; font-weight:bold;'>0</label>/<label style='color:#e97214;font-weight:bold;'>454</label></span></li>
+                    <li class='jcyz_li3'><a href='#' target='_blank'>2017年2月25日下午，武胜关路旅游咨询中心内举办了“小山村自然探秘之旅”旅行分享会。此次活动是由上海市徐汇……</a></li>
+                </ul>
+                <ul class='jcyz_ul'>
+                    <li class='jcyz_li'><a href='#' target='_blank'><img src='images/c.jpg' /></a></li>
+                    <li class='jcyz_li2'><a href='#' target='_blank'><span class='title'>2017年迎新春撞龙华晚钟精彩回顾</span></a></li>
+                    <li class='jcyz_li2'><span class='author'>
+                        <img src='images/00.jpg' />作者：xiaran0522 <img src='images/000.JPG' />回复：Sana 09:55:11<img src='images/m.png' />
+                        <label style='color:#e97214; font-weight:bold;'>5</label>/<label style='color:#e97214;font-weight:bold;'>9022</label></span></li>
+                    <li class='jcyz_li3'><a href='#' target='_blank'>2016年12月31日晚，满载市民游客对于2017年的美好祈愿的“龙华梵钟”在千年龙华古寺鸣响，“2017迎新……</a></li>
+                </ul>
+            </div>
+
+            <div id="pnlNotice" class="pnl_notice">
+                <ul class='notice_banner'><li class='notice_more'></li></ul>
+                <ul class='notice_ul'>
+                    <li>
+                        <a href='#'>[活动分享]</a>
+                        <a href='#' target='_blank'>2017年6月第六十八期【漫游慢品武胜关路】活动精彩大回顾！</a>
+                    </li>
+                    <li><a href='#'>[活动分享]</a>
+                        <a href='#' target='_blank'>畅“邮”世界，海上人生 邮轮旅行分享会精彩回顾</a>
+                    </li>
+                    <li><a href='#'>[千景活动]</a>
+                        <a href='#' target='_blank'>【活动报名】2017年6月3日“漫游慢品武康路老房子故事会“活动</a>
+                    </li>
+                    <li><a href='#'>[千景活动]</a>
+                        <a href='#' target='_blank'>畅“邮”世界，海上人生 ——旅行分享会</a>
+                    </li>
+                    <li><a href='#'>[活动分享]</a>
+                        <a href='#' target='_blank'>2017年5月第六十七期【漫游慢品武康路】活动精彩大回顾！</a>
+                    </li>
+                    <li><a href='#'>[活动分享]</a>
+                        <a href='#' target='_blank'>2017“五一”微游上海精彩回顾</a></li>
+                    <li><a href='#'>[活动分享]</a>
+                        <a href='#' target='_blank'>文化碰撞与自然魅力！巴尔干半岛自驾旅行分享会精彩回顾</a>
+                    </li>
+                    <li><a href='#'>[千景活动]</a>
+                        <a href='#' target='_blank'>【活动报名】2017年5月6日“漫游慢品武康路老房子故事会“活动</a>
+                    </li>
+                    <li><a href='#'>[千景活动]</a>
+                        <a href='#' target='_blank'>文化的碰撞与自然的魅力！巴尔干半岛自驾旅行分享会</a>
+                    </li>
+                    <li><a href='#'>[活动分享]</a>
+                        <a href='#' target='_blank'>2017年4月第六十六期【漫游慢品武胜关路】活动精彩大回顾！</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div id="ztTravelPnl" class="div_middle_LM" style="margin-top:30px;">
+            <ul class='ztTravel_banner'>
+                <li class='ztTravel_more'><a href='主题之旅.html'>>>更多</a></li>
+            </ul>
+            <div class='divbox'>
+                <div class='picbox'>
+                    <ul class='piclist mainlist'>
+                        <li><a href='http://localhost:63342/HTML5%E4%BB%A3%E7%A0%81/%E5%AD%A6%E6%9C%9F%E9%A1%B9%E7%9B%AE-%E8%B5%B0%E9%81%8D%E9%9D%92%E5%B2%9B%EF%BC%88%E6%9C%80%E7%BB%88%E7%89%88%EF%BC%89/1.html' target='_blank'><img src='images/f.jpg' alt='极地海洋世界' /></a><div class='ztTravel_title'>极地海洋世界</div></li>
+                        <li><a href='#' target='_blank'><img src='images/g.jpg' alt='金沙滩' /></a><div class='ztTravel_title'>金沙滩</div></li>
+                        <li><a href='#' target='_blank'><img src='images/h.jpg' alt='国际啤酒节' /></a><div class='ztTravel_title'>国际啤酒节</div></li>
+                        <li><a href='#' target='_blank'><img src='images/i.jpg' alt='石老人' /></a><div class='ztTravel_title'>石老人</div></li>
+                        <li><a href='#' target='_blank'><img src='images/j.jpg' alt='鲁迅公园' /></a><div class='ztTravel_title'>鲁迅公园</div></li>
+                        <li><a href='#' target='_blank'><img src='images/k.jpg' alt='中山公园' /></a><div class='ztTravel_title'>中山公园</div></li>
+                        <li><a href='#' target='_blank'><img src='images/l.jpg' alt='方特梦幻王国' /></a><div class='ztTravel_title'>方特梦幻王国</div></li>
+                        <li><a href='#' target='_blank'><img src='images/m.jpg' alt='青岛德国风情街' /></a><div class='ztTravel_title'>青岛德国风情街</div></li>
+                    </ul>
+                    <ul class='piclist swaplist'></ul>
+                </div>
+                <div class='og_prev'></div>
+                <div class='og_next'></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--中间的-->
+
+
+<div class="bottom_div_all">
+    <div class="bottom_div_964">
+        <ul class="bottom_link_ul">
+            <li class="bottom_link_li">友情链接：</li>
+            <li style="float:left;">
+                <a href="#" target="_blank">青岛市旅游局政务网</a>
+                <a href="#" target="_blank">青岛</a>
+                <a href="#" target="_blank">青岛旅游政务网</a>
+                <a href="#" target="_blank">五四广场</a>
+                <a href="#" target="_blank">青岛商城</a>
+                <a href="#" target="_blank">青岛崂山4A级景区</a>
+                <a href="#" target="_blank">青岛海泊河长途客运</a>
+
+                <a href="#" target="_blank">鲁迅公园</a>
+                <a href="#" target="_blank">崂山</a><br />
+                <a href="#" target="_blank">携程旅行网</a>
+                <a href="#" target="_blank">青岛旅游网</a>
+                <a href="#" target="_blank">大众点评网</a>
+                <a href="#" target="_blank">中国历史建筑保护网</a>
+                <a href="#" target="_blank">青岛都市旅游卡</a>
+                <a href="#" target="_blank">我要免费游</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+<div class="bottom_rights_div">
+    <div class="bottom_rights_div_964">
+        <table align="center">
+            <tr>
+                <!--<td>-->
+                <!--<script type="text/javascript">document.write(unescape("%3Cspan id='_ideConac' %3E%3C/span%3E%3Cscript src='http://dcs.conac.cn/js/02/021/0000/60552053/CA020210000605520530001.js' type='text/javascript'%3E%3C/script%3E"));</script>-->
+            <!--</td>-->
+                <td>青ICP备88888888号 COPYRIGHT&copy;2012 <span>王明磊 周辉 易添</span> ALL RIGHTS RESERVED 版权所有 青岛大学浮山公寓 1# 202-1室</td>
+            </tr>
+        </table>
+    </div>
+</div>
+<div style="display: none;">
+    <iframe style="border:0px;" frameborder="0" height="0" src="/UpdateOnlineUser.aspx"></iframe>
+    <script language="javascript" type="text/javascript" src="/js/sitecount.js"></script>
+</div>
+</body>
+</html>

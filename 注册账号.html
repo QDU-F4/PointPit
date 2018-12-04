@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册账号</title>
+    <script src="js/registration.js"></script>
+    <script src="js/jquery-2.2.3.min.js"></script>
+    <style type="text/css">
+        body{
+            text-align: center;
+            /*background-image: url(images/清新.jpg);*/
+            font-family: 楷体;
+            font-size: 100%;
+            color: mediumvioletred;
+            line-height: 50px;
+            left: 600px;
+            position: absolute;
+        }
+        h1{
+            text-align: center;
+        }
+        input[type="text"]{
+            background-color: lightskyblue;
+            border-radius: 6px;
+        }
+        input[type="password"]{
+            background-color: lightskyblue;
+            border-radius: 6px;
+        }
+        input[type="submit"]{
+            border-radius: 6px;
+            width: 80px;
+            height: 30px;
+        }
+        fieldset{
+            width: 250px;
+        }
+        button{
+            height: 30px;
+            width: 200px;
+            background-color: mediumvioletred;
+            border-radius: 6px;
+        }
+        #others{
+            background-color: white;
+        }
+        span{
+            color: purple;
+            font-style: italic;
+            font-size: 14px;
+        }
+    </style>
+
+</head>
+<body>
+<h1>账户注册</h1>
+<table align="center">
+    <tr>
+        <td>用户名</td>
+        <td><input id="acc" name="acc" type="text" /></td>
+        <td><span id="span0"></span></td>
+    </tr>
+    <tr>
+        <td>密码:</td>
+        <td><input id="upwd" name="upwd" type="password"/></td>
+        <td><span id="span2"></span></td>
+    </tr>
+    <tr>
+        <td>确认密码:</td>
+        <td><input id="upwd2" name="upwd2" type="password"/></td>
+        <td><span id="span3"></span></td>
+    </tr>
+    <tr>
+        <td>昵称：</td>
+        <td><input id="name" name="name" type="text" /></td>
+        <td><span id="span1"></span></td>
+    </tr>
+    <tr>
+        <td>性别：</td>
+        <td>
+            <select id="gender">
+                <option value="male">男</option>
+                <option value="female">女</option>
+            </select>
+        </td>
+    </tr>
+
+    <tr><td>出生日期</td>
+        <td>
+            <fieldset>
+                <legend>出生信息</legend>
+                <select>
+                    <option value="spj">公历</option>
+                    <option value="gc" selected>公历</option>
+                    <option value="lc">农历</option>
+                </select>
+                <select>
+                    <option value="year" selected>年</option>
+                    <option value="2016">2016年</option>
+                    <option value="2015">2015年</option>
+                    <option value="2014">2014年</option>
+                </select>
+                <select>
+                    <option value="month">月</option>
+                    <option value="1">1月</option>
+                    <option value="2">2月</option>
+                    <option value="3">3月</option>
+                </select>
+                <select>
+                    <option value="day">日</option>
+                    <option value="1">1日</option>
+                    <option value="2">2日</option>
+                    <option value="3">3日</option>
+                </select>
+            </fieldset>
+        </td>
+    </tr>
+
+    <tr>
+        <td colspan="2"><input id="iread" name="iread" type="checkbox" onclick="A()" />我已阅读并同意相关服务条款</td></tr>
+    <tr>
+        <td colspan="2" >
+            <button style="visibility:hidden"  id="sbt" type="submit" onclick="D()" />提交注册</td>
+    </tr>
+</table>
+</body>
+</html>

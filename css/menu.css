@@ -1,0 +1,59 @@
+/*菜单*/
+.menu_warp ul,.menu_warp li, .menu_warp a{
+    margin:0px; padding:0px;
+}
+.menu_warp {
+    background:#ebf5ec;
+    width:100%;
+    overflow:hidden;
+    border-bottom-width: 3px;
+    border-bottom-style:solid;
+    border-bottom-color: #B1D9B6;
+}
+.menu {
+    width:964px;
+    max-width:964px;
+    min-width:280px;
+    margin:0 auto;
+    overflow:hidden;
+}
+.menu li {
+    float:left;
+    display:inline-block;
+    text-align:center;
+    line-height:40px;
+    font-size:16px;
+    width:135.5px;
+}
+.menu li {
+    float:left;
+    display:inline-block;
+    text-align:center;
+    line-height:40px;
+    font-size:16px;
+    width:14.058245406046235921754593953764%;
+}
+
+.menu li a {
+    text-decoration:none;
+    color:#23904f;
+    display:block;
+    font-size: 16px;
+    font-family:"Microsoft Yahei","Microsoft JhengHei","SimSun","Arail","Verdana","Helvetica","sans-serif";
+}
+.menu li a:hover {
+    background:#23904f;
+    color:#FFF;
+    display:block;
+}
+.menu ul .menu2013_on {
+    color:#FFF;
+    background:#23904f;
+}
+.menu ul .lastmenu2013{
+    border-right-color:#ebf5ec;
+}
+.menu ul .firstmenu2013{
+    border-left-color:#ebf5ec;
+}
+/*菜单*/

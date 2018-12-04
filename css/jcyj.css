@@ -1,0 +1,82 @@
+.pnljcyz{
+    width:560px;
+    height:340px;
+    float:left;
+    font-family:"Microsoft Yahei","Microsoft JhengHei","SimSun","Arail","Verdana","Helvetica","sans-serif";
+    font-size:12px;
+}
+.jcyz_banner{
+    width:550px;
+    height:45px;
+    background-image:url('../images/jcyz.png');
+    background-repeat:no-repeat;
+    overflow:hidden;}
+.jcyz_more{
+    width:50px;
+    height:30px;
+    padding-left:145px;
+    text-align:right;
+    line-height:30px;
+    float:left;
+    color:#119451;
+    font-family:"Microsoft Yahei","Microsoft JhengHei","SimSun","Arail","Verdana","Helvetica","sans-serif";
+    font-size:12px;
+    font-weight: normal;
+}
+.jcyz_more a,.jcyz_more a:hover{
+    color:#119451;
+    font-family:"Microsoft Yahei","Microsoft JhengHei","SimSun","Arail","Verdana","Helvetica","sans-serif";
+    font-size:12px;
+}
+.jcyz_ul{
+    width:550px;
+    height:100px;
+    overflow:hidden;
+    margin-left:10px;
+}
+.jcyz_li{
+    width:155px;
+    height:100px; overflow:hidden;float:left;}
+.jcyz_li img{
+    width:145px;
+    height:90px;
+}
+
+
+.jcyz_li2{
+    width:360px;
+    float:left;
+}
+.jcyz_li2 .title{
+    width:350px;
+    height:25px;
+    line-height:22px;
+    float:left;
+    display:block;
+    overflow:hidden;
+    font-family:"Microsoft Yahei","Microsoft JhengHei","SimSun","Arail","Verdana","Helvetica","sans-serif";
+    font-size:16px;
+    font-weight: normal;
+    color:#119451;
+}
+.jcyz_li2 .author{
+    width:360px;
+    height:25px;
+    line-height:20px;
+    float:left;
+    display:block;
+    overflow:hidden;
+}
+.jcyz_li2 .author img{
+    width:15px;
+    height:15px;
+    vertical-align:middle;
+    margin-right:2px;
+}
+.jcyz_li3{
+    width:350px;
+    height:40px;
+    float:left;
+    overflow:hidden;
+    margin-top:5px;
+}

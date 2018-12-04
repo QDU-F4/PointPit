@@ -1,0 +1,63 @@
+body {
+    background-color:#fff;
+    margin:0px;
+    padding:0px;
+    margin-top:0px;
+    margin-left:0px;
+    font-family: "Microsoft Yahei","Microsoft JhengHei","SimSun","Arail","Verdana","Helvetica","sans-serif";
+    font-size: 12px;
+    line-height: 18px;
+    color: #666;
+    background-image: url('../images/底面.png');
+    background-repeat: no-repeat;
+}
+ul{
+    list-style:none;
+}
+
+a{
+    font-family: "Microsoft Yahei","Microsoft JhengHei","SimSun","Arail","Verdana","Helvetica","sans-serif";
+    font-size: 12px;
+    line-height: inherit;
+    color: #666;
+    text-decoration:none;}
+a:hover{
+    font-family: "Microsoft Yahei","Microsoft JhengHei","SimSun","Arail","Verdana","Helvetica","sans-serif";
+    font-size: 12px;
+    line-height: inherit;
+    color: #ea6614;
+    text-decoration:none;
+}
+
+
+/*中间的*/
+.div_bg_all{width:100%;margin:0px; padding:0px; float:left;background-image:url(../images/a.jpg); background-repeat:no-repeat;background-position:center top;}
+.div_bg_all{width:100%;margin:0px; padding:0px; float:left;background-image:url(../images/b.jpg); background-repeat:no-repeat;background-position:center 0px;}
+.div_bg_all{width:100%;margin:0px; padding:0px; float:left;background-image:url(../images/c.jpg);
+    background-repeat:no-repeat;background-position:center 0px;}
+/*背景固定不动end*/
+.div_bg_all_fixed{width:100%;margin:0px; padding:0px; float:left;background-image:url(../images/0000.JPG);
+    background-repeat:no-repeat;background-position:center top;background-attachment:fixed;}
+.div_middle_964{width:964px;overflow:hidden;margin:0 auto; background-color:#fff;}
+.div_middle_LM{width:924px; margin-left:20px; margin-top:40px; float:left;}
+
+
+#focus {width:610px; height:370px; overflow:hidden; position:relative;margin-left:20px; margin-top:30px; float:left;}
+#focus ul {height:370px; position:absolute;}
+#focus ul li {float:left; width:610px; height:370px; overflow:hidden; position:relative;}
+#focus ul li img{width:610px; height:370px; }
+
+/*中间的*/
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*广告*/
+
+#outer iframe{
+    width: 600px;
+    height:500px;
+}
